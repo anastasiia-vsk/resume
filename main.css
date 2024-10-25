@@ -1,0 +1,223 @@
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+}
+
+/* Container for all content */
+.container {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light grey background */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.left-header img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-info h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-info p {
+  font-size: 18px;
+  margin: 5px 0 0 0;
+  color: #555;
+}
+
+/* Contact Info in Column */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.contact-info a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+/* Header Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+h1, p {
+  text-transform: uppercase;
+}
+
+p {
+  margin: 5px 0;
+  color: #777;
+}
+
+.right-header {
+  text-align: right;
+  font-size: 14px;
+}
+
+.right-header p, .right-header span {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.right-header a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.right-header a:hover {
+  text-decoration: underline;
+}
+
+/* Skills Section */
+.skills {
+  margin-top: 20px;
+}
+
+.skills h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* Зменшіть значення для зменшення відстані */
+}
+
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Work Experience Section */
+section {
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.job h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.job p {
+  margin: 0;
+  color: #777;
+}
+
+.job ul {
+  list-style: disc;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.job ul li {
+  margin-bottom: 10px;
+}
+
+/* Education Section */
+.education {
+  margin-top: 20px;
+}
+
+.education .degree {
+  font-weight: bold;
+}
+.education p {
+  text-transform: none;
+}
+
+
+.education p {
+  margin: 5px 0;
+}
+
+/* Projects Section */
+section a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
